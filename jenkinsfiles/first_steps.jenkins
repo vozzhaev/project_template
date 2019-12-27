@@ -3,7 +3,7 @@
 properties([disableConcurrentBuilds()])
 
 pipeline {
-    agent { 
+    agent {
         label 'master'
         }
     options {
@@ -23,3 +23,4 @@ pipeline {
         }
     }
 }
+1
